@@ -1,0 +1,252 @@
+@font-face {
+    font-family: poppins ;
+    src: url(/assets/Poppins/Poppins-Regular.ttf);
+
+}
+
+* {
+    font-family: poppins;
+    font-size: 13px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.side-bar {
+    height: 100vh;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.youtube-logo {
+    height: 13vh;
+}
+.youtube-logo img {
+    align-items: center;
+}
+.nav-bar {
+    height: 13vh;
+    margin: 0 0 10px 0;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+
+}
+.left {
+
+    display: flex;
+    height: 13vh;
+    align-items: center;
+    padding: 10px;
+
+    
+}
+.left button {
+    border: none;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.side {
+    margin: 10px;
+
+}
+.side > .list-group-item {
+    border: none;
+    margin-bottom: 5px;
+
+}
+.side > h6 {
+    margin-left: 12px;
+    font-weight: bold;
+}
+.side > a > img {
+    width:16px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+.fa-brands {
+    margin-right: 12px;
+}
+.fa-caret-down {
+    margin-left: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#search {
+    border-radius: 10px;
+    background-color: rgb(236, 236, 236);
+    
+}
+.right {
+
+    display: flex;
+    height: 13vh;
+    align-items: center;
+    padding: 10px;
+    margin-right: 0;
+    margin-left: auto;
+
+}
+.right button {
+    border: none;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+
+.fa-solid {
+    font-size: 20px;
+}
+.menu-bar {
+    height: 12vh;
+    margin: 0 0 10px 0;
+}
+
+.ads {
+    height: 18rem;
+    margin: 0 0 10px 0;
+
+}
+
+.ads h4 {
+    color: white;
+}
+.lists {
+    height: 23rem;
+    margin-top: 10px;
+}
+
+
+.list-group .fa-solid {
+    font-size: 12px;
+    margin-right: 15px;
+}
+
+.col-lg-3 > .card {
+    padding: 10px;
+    width: 18rem;
+    border: none;
+
+  }
+
+  .col-lg-6 > .card {
+    padding: 10px;
+    border: none;
+
+  }
+  .card iframe {
+    border-radius: 20px;
+  }
+
+  .avatar > img {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: red;
+    border-radius: 12px;
+    top: 25vh;
+    left: 7%;
+    border: 2px solid white;
+}
+
+.card-body > p {
+    margin-bottom: 0;
+}
+.card > .card-body > h6 {
+    margin-top: 15px;
+}
+.col-lg-6 .card > .card-body > h6 {
+    margin-top: 30px;
+}
+
+
+  .menu-bar {
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+  }
+  .card > .card-body > p > .material-symbols-outlined {
+    font-size: 15px;
+    margin-left: 5px;
+    color: black;
+
+  }
+  .lists > .card {
+    width: 23rem;
+  }
+
+  .side-bar {
+    overflow-y: scroll;
+    position: fixed;
+    scrollbar-width: none;
+  }
+
+
+  .menu-bar button {
+    margin: 5px;
+    display: inline;
+  }
+
+  .ads {
+    border-radius: 20px;
+    background-color: black;
+  }
+
+  .main > ul {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+  }
+  
+ul > li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+
+  }
+
+
+  @media screen and (max-width:768px)  {
+
+    .menu-bar {
+        display: none;
+    }
+
+    .side-bar {
+        display: none;
+    }
+    #recommended {
+        display: none;
+    }
+
+
+    @media screen and (max-width:500px) {
+
+        .lists > .row > .col > .card {
+        width: 35rem;
+        border: none;
+        }
+
+
+    }
+    
+  }
+
+
+
+
+  
